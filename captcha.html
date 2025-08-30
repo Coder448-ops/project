@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>reCAPTCHA v2 Example</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        
+        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
