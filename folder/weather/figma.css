@@ -1,0 +1,297 @@
+.novbar{
+  display: flex;
+  
+  justify-content: flex-end; 
+}
+
+.novbar_link{
+  color: rgb(0, 0, 0);
+
+   height: 20px;
+   width: 42px;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+   
+}
+
+
+.novbar_link.active{
+  background: #000;
+  color: #fff;
+}
+.text-content{
+  /* Paragraph */
+
+
+height: 450px;
+left: 20.76%;
+right: 20.76%;
+top: 1027px;
+max-width: 1000px;
+
+margin: 0 auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;
+
+
+}
+.Figma-content{
+  /* Paragraph */
+
+
+height: 270px;
+left: 20.76%;
+right: 20.76%;
+top: 2273px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;
+
+
+}
+.FLEX{
+  /* Related articles or posts */
+
+width: 625px;
+height: 44px;
+left: 80px;
+top: 2663px;
+
+/* Heading
+
+Headers for your page
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 110%;
+/* identical to box height, or 44px */
+
+color: #000000;
+
+
+}
+ .Flex-cherry{
+  /* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 404px;
+height: 434px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 404px;
+height: 346px;
+
+background: url(Stocksy_txp226f62b2aNe300_Medium_4959394.jpg), #F7F7F7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 404px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 404px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Author */
+
+width: 404px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+ }
+ .Flex-title{
+  /* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 404px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 404px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Author */
+
+width: 404px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #512c2c;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+ }
+ .Flex-head{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  gap: 20px;
+  flex-wrap: wrap;
+ }
+ .Figma-flex{
+   display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+
+ 
+ }
+ .Flex-Image{
+   display: flex;
+  justify-content: center;
+ }

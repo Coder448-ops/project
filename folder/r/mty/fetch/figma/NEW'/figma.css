@@ -1,0 +1,74 @@
+.novbar{
+  display: flex;
+  
+  justify-content: flex-end; 
+}
+
+.novbar_link{
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to top, #286333 0%, #3cb05392 100%);
+   height: 20px;
+   width: 58px;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+   
+}
+
+.Flex-head{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.class{
+  display: flex;
+  justify-content: center;
+}
+.Flex-Image{
+   display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.Figma-flex{
+   display: flex;
+  justify-content: center;
+}
+
+.class{
+   display: flex;
+  justify-content: center;
+}
+.rubbish{
+  padding: 8px;
+}
+.Cherry{
+ padding: 8px;  
+}
+.Mushroom{
+   padding: 8px;
+}
+.Figma-content{
+  width: 1300px;
+  margin: 0 auto;
+}
+.FLEX{
+    width: 1300px;
+  margin: 0 auto;
+}
+.text-content{
+    width: 1300px;
+  margin: 0 auto;
+}
+.Subheading{
+  width: 1277px;
+  margin: 0 auto;
+}
+.Article{
+  width: 1277px;
+  margin: 0 auto;
+}
+body{
+  color: #fff;
+background-image: linear-gradient(to top, #070830 0%, #1216a2 100%);
+}
